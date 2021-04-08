@@ -1,0 +1,236 @@
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=569803), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\runner.py'), 'function': 'test_start', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 450, 'message': 'Start to run testcase: testcase description, TestCase ID: 1520500b-65af-44f3-ba30-936d734fdc03', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 518733, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=572795), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\runner.py'), 'function': '__run_step', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 292, 'message': 'run step begin: login_$case >>>>>>', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 521725, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=573793), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\runner.py'), 'function': '__run_step', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 292, 'message': 'run step begin: login_$case >>>>>>', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 522723, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=622662), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 186, 'message': 'client IP: 127.0.0.1, Port: 62460', 'module': 'client', 'name': 'httprunner.client', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 571592, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=622662), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 194, 'message': 'server IP: 127.0.0.1, Port: 8888', 'module': 'client', 'name': 'httprunner.client', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 571592, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=623659), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'log_print', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 40, 'message': '\n================== request details ==================\nmethod   : POST\nurl      : http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html\nheaders  : {\n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63",\n    "Accept-Encoding": "gzip, deflate",\n    "Accept": "*/*",\n    "Connection": "keep-alive",\n    "Content-Type": "application/x-www-form-urlencoded",\n    "Sec-Fetch-Dest": "iframe",\n    "Sec-Fetch-Mode": "navigate",\n    "Sec-Fetch-Site": "same-origin",\n    "Sec-Fetch-User": "?1",\n    "HRUN-Request-ID": "HRUN-1520500b-65af-44f3-ba30-936d734fdc03-148523",\n    "Content-Length": "51"\n}\ncookies  : {}\nbody     : account=admin&password=test123&referer=%2Fzentao%2F\n', 'module': 'client', 'name': 'httprunner.client', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 572589, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=624657), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'log_print', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 40, 'message': '\n================== response details ==================\nstatus_code : 200\nheaders  : {\n    "Date": "Thu, 08 Apr 2021 05:02:28 GMT",\n    "Server": "Apache",\n    "Set-Cookie": "lang=zh-cn; expires=Sat, 08-May-2021 05:02:28 GMT; path=/zentao/, theme=default; expires=Sat, 08-May-2021 05:02:28 GMT; path=/zentao/, zentaosid=su4hj225l7esiran2sa6a8vp53; path=/",\n    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",\n    "Cache-Control": "private",\n    "Pragma": "no-cache",\n    "Vary": "Accept-Encoding",\n    "Content-Encoding": "gzip",\n    "Content-Length": "119",\n    "Keep-Alive": "timeout=5, max=100",\n    "Connection": "Keep-Alive",\n    "Content-Type": "text/html; Language=UTF-8"\n}\ncookies  : {\n    "zentaosid": "su4hj225l7esiran2sa6a8vp53",\n    "lang": "zh-cn",\n    "theme": "default"\n}\nencoding : ISO-8859-1\ncontent_type : text/html; Language=UTF-8\nbody     : <html><meta charset=\'utf-8\'/><style>body{background:white}</style><script>parent.location=\'/zentao/\';\n\n</script>\n\n', 'module': 'client', 'name': 'httprunner.client', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 573587, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=625654), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 217, 'message': 'status_code: 200, response_time(ms): 47.87 ms, response_length: 0 bytes', 'module': 'client', 'name': 'httprunner.client', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 574584, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=626651), 'exception': None, 'extra': {}, 'file': (name='response.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\response.py'), 'function': 'validate', 'level': (name='ERROR', no=40, icon='❌'), 'line': 263, 'message': 'assert body equal parent.location=\'/zentao/\';(str)\t==> fail\ncheck_item: body\ncheck_value: b"<html><meta charset=\'utf-8\'/><style>body{background:white}</style><script>parent.location=\'/zentao/\';\\n\\n</script>\\n"(bytes)\nassert_method: equal\nexpect_value: parent.location=\'/zentao/\';(str)', 'module': 'response', 'name': 'httprunner.response', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 575581, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\response.py", line 244, in validate
+    assert_func(check_value, expect_value, message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\builtin\comparators.py", line 10, in equal
+    assert check_value == expect_value, message
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=627648), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\runner.py'), 'function': 'log_req_resp_details', 'level': (name='ERROR', no=40, icon='❌'), 'line': 194, 'message': '\n******************************** DETAILED REQUEST & RESPONSE ********************************\n====== request details ======\nurl: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html\nmethod: POST\nheaders: {\'Content-Type\': \'application/x-www-form-urlencoded\', \'Sec-Fetch-Dest\': \'iframe\', \'Sec-Fetch-Mode\': \'navigate\', \'Sec-Fetch-Site\': \'same-origin\', \'Sec-Fetch-User\': \'?1\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63\', \'HRUN-Request-ID\': \'HRUN-1520500b-65af-44f3-ba30-936d734fdc03-148523\'}\nparams: {}\ndata: {\'account\': \'admin\', \'password\': \'test123\', \'referer\': \'/zentao/\'}\ncookies: {}\ntimeout: 120\nallow_redirects: True\nverify: False\njson: None\n\n====== response details ======\nstatus_code: 200\nheaders: {\'Date\': \'Thu, 08 Apr 2021 05:02:28 GMT\', \'Server\': \'Apache\', \'Set-Cookie\': \'lang=zh-cn; expires=Sat, 08-May-2021 05:02:28 GMT; path=/zentao/, theme=default; expires=Sat, 08-May-2021 05:02:28 GMT; path=/zentao/, zentaosid=su4hj225l7esiran2sa6a8vp53; path=/\', \'Expires\': \'Thu, 19 Nov 1981 08:52:00 GMT\', \'Cache-Control\': \'private\', \'Pragma\': \'no-cache\', \'Vary\': \'Accept-Encoding\', \'Content-Encoding\': \'gzip\', \'Content-Length\': \'119\', \'Keep-Alive\': \'timeout=5, max=100\', \'Connection\': \'Keep-Alive\', \'Content-Type\': \'text/html; Language=UTF-8\'}\nbody: "<html><meta charset=\'utf-8\'/><style>body{background:white}</style><script>parent.location=\'/zentao/\';\\n\\n</script>\\n"\n', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 576578, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 208, in __run_step_request
+    resp_obj.validate(
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\response.py", line 270, in validate
+    raise ValidationFailure(failures_string)
+httprunner.exceptions.ValidationFailure: assert body equal parent.location='/zentao/';(str)	==> fail
+check_item: body
+check_value: b"<html><meta charset='utf-8'/><style>body{background:white}</style><script>parent.location='/zentao/';\n\n</script>\n"(bytes)
+assert_method: equal
+expect_value: parent.location='/zentao/';(str)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=628645), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\testdev\\workspace\\python\\venv\\lib\\site-packages\\httprunner\\runner.py'), 'function': 'test_start', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 460, 'message': 'generate testcase log: D:\\TestDev\\WorkSpace\\Python\\zentao_api\\logs\\1520500b-65af-44f3-ba30-936d734fdc03.run.log', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=15852, name='MainProcess'), 'thread': (id=18228, name='MainThread'), 'time': datetime(2021, 4, 8, 13, 2, 28, 577575, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 455, in test_start
+    return self.run_testcase(
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 357, in run_testcase
+    extract_mapping = self.__run_step(step)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 297, in __run_step
+    step_data = self.__run_step_testcase(step)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 246, in __run_step_testcase
+    testcase_cls()
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 384, in run
+    return self.run_testcase(testcase_obj)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 357, in run_testcase
+    extract_mapping = self.__run_step(step)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 295, in __run_step
+    step_data = self.__run_step_request(step)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\runner.py", line 208, in __run_step_request
+    resp_obj.validate(
+  File "d:\testdev\workspace\python\venv\lib\site-packages\httprunner\response.py", line 270, in validate
+    raise ValidationFailure(failures_string)
+httprunner.exceptions.ValidationFailure: assert body equal parent.location='/zentao/';(str)	==> fail
+check_item: body
+check_value: b"<html><meta charset='utf-8'/><style>body{background:white}</style><script>parent.location='/zentao/';\n\n</script>\n"(bytes)
+assert_method: equal
+expect_value: parent.location='/zentao/';(str)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 187, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\testdev\workspace\python\venv\lib\site-packages\colorama\ansitowin32.py", line 196, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---

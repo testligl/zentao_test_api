@@ -1,0 +1,16 @@
+config:
+    name: testcase description
+    base_url: ${ENV(HOST)}
+    parameters:
+        case-account-password-expect:
+            - [ "正常登陆","admin","test123","parent.location='/zentao/';" ]
+            - [ "密码为空","lisensen","","","登录失败，请检查您的用户名或密码是否填写正确" ]
+            - [ "密码错误","liss", "333333","登录失败，请检查您的用户名或密码是否填写正确" ]
+            - [ "账号不存在","test", "333333","登录失败，请检查您的用户名或密码是否填写正确" ]
+            - [ "账号为空","", "333333","登录失败，请检查您的用户名或密码是否填写正确" ]
+
+teststeps:
+-   name: login_$case
+    testcase: ./api/login_api.yml
+
+

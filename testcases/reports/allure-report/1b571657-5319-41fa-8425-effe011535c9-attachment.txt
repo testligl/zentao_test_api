@@ -1,0 +1,1 @@
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:664 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)'))': /api/5263855/store/

@@ -1,0 +1,84 @@
+config:
+    name: testcase description
+    variables: {}
+    verify: false
+teststeps:
+-   name: /zentao/bug-create-1-0-moduleID=0.html
+    request:
+        cookies:
+            bugModule: '0'
+            caseModule: '0'
+            lang: zh-cn
+            lastProduct: '1'
+            lastProject: '1'
+            moduleBrowseParam: '0'
+            preBranch: '0'
+            preProductID: '1'
+            preProjectID: '1'
+            productBrowseParam: '0'
+            projectTaskOrder: status%2Cid_desc
+            qaBugOrder: id_desc
+            theme: default
+            windowHeight: '754'
+            windowWidth: '1519'
+            zentaosid: e3r590i5dkg87dgbrn2nm3q0q5
+        data: "------WebKitFormBoundary15qWPE9hGgtTM6t6\r\nContent-Disposition: form-data;\
+            \ name=\"product\"\r\n\r\n1\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"module\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"project\"\r\n\r\n1\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"openedBuild[]\"\r\n\r\ntrunk\r\
+            \n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\nContent-Disposition: form-data;\
+            \ name=\"assignedTo\"\r\n\r\nadmin\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"type\"\r\n\r\ncodeerror\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"os\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"browser\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"color\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"title\"\r\n\r\n测试提bug 2021年4月3日\
+            \ 05:50:28\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\nContent-Disposition:\
+            \ form-data; name=\"severity\"\r\n\r\n3\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"pri\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"steps\"\r\n\r\n<p>[步骤]</p>\n\
+            <p>1</p>\n<p>2</p>\n<p>3</p>\n<p>[结果]</p>\n<p>result: pass</p>\n<p>[期望]</p>\r\
+            \n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\nContent-Disposition: form-data;\
+            \ name=\"story\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"task\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"mailto[]\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"keywords\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"files[]\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"labels[]\"\r\n\r\n\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"uid\"\r\n\r\n6067918aeb934\r\n\
+            ------WebKitFormBoundary15qWPE9hGgtTM6t6\r\nContent-Disposition: form-data;\
+            \ name=\"case\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"caseVersion\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"result\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6\r\
+            \nContent-Disposition: form-data; name=\"testtask\"\r\n\r\n0\r\n------WebKitFormBoundary15qWPE9hGgtTM6t6--\r\
+            \n"
+        headers:
+            Accept: application/json, text/javascript, */*; q=0.01
+            Accept-Encoding: gzip, deflate, br
+            Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+            Connection: keep-alive
+            Content-Length: '2459'
+            Content-Type: multipart/form-data; boundary=----WebKitFormBoundary15qWPE9hGgtTM6t6
+            Cookie: lang=zh-cn; theme=default; preBranch=0; bugModule=0; qaBugOrder=id_desc;
+                preProductID=1; lastProduct=1; lastProject=1; preProjectID=1; moduleBrowseParam=0;
+                productBrowseParam=0; projectTaskOrder=status%2Cid_desc; caseModule=0;
+                windowHeight=754; windowWidth=1519; zentaosid=e3r590i5dkg87dgbrn2nm3q0q5
+            Host: 127.0.0.1
+            Origin: http://127.0.0.1
+            Referer: http://127.0.0.1/zentao/bug-create-1-0-moduleID=0.html
+            Sec-Fetch-Dest: empty
+            Sec-Fetch-Mode: cors
+            Sec-Fetch-Site: same-origin
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63
+            X-Requested-With: XMLHttpRequest
+        method: POST
+        url: http://127.0.0.1/zentao/bug-create-1-0-moduleID=0.html
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html; Language=UTF-8
